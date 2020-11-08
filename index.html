@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head> 
+<body>
+    <div class="container">
+        <blockquote class="pepe">
+            CodigoCesar
+        </blockquote>
+        <textarea id="cadena" placeholder="Coloca la cadena aqui plocs" onkeypress="return validar_letra(event)"></textarea>
+        <br>
+        <textarea id="posicion" placeholder="ingresa la posicion que tendrá la 'a'" maxlength="10" onkeypress="return validar_num(event)"></textarea>
+          
+        <div class="section">
+                        <input type="button" class="btn" value="Cifrar" onclick="codificar()">
+                    
+                    
+                        <input type="button" class="btn" value="Decifrar" onclick="decodificar()">
+                    
+                
+                    <blockquote>
+                        <div  class="" id="resultado"></div>
+                    </blockquote>
+                        
+                </div>
+                
+    
+    
+    
+    
+    
+    </div>
+    
+
+    <script src="js/logica.js"></script>
+</body>
+</html>

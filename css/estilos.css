@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding: 0;
+    box-sizing: border-box;
+}
+/*Este es el general*/
+.megacontainer{
+	background-color: #000;
+	display: flex;
+	flex-flow:row wrap; 
+	justify-content: center;
+	align-content: center;
+
+}
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Semi-bold 600' bold;
+}
+body{
+    background-color:darkslategrey;
+}
+.pepe{
+    font-size: 30px;
+}
+#resultado{
+    font-size: 30px;
+}
